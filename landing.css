@@ -257,18 +257,20 @@ nav #logo {
 .principal-section svg {
     margin-right: 38.5px;
 }
-.principal-section >button {
+.principal-section > button {
     
     border-radius: 100px;
     padding: 10px 56px 10px 55px;
     border: 1px solid #FFF;
     background-color: transparent;
+    font-size: 20px;
+    color: white;
 }
 /* inicia seccion prop1 */
 
 .property-1__section--txt .sect-button .primary-bttn {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 200;
     border: solid 1px black;
     background-color: transparent;
     padding: 10px 50px;
@@ -406,7 +408,7 @@ color:  #DF991B;;
 /* inicio seccion property 2 */
 .property-2__section--txt .sect-button-2 .primary-bttn-2 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 200;
     border: solid 1px black;
     background-color: transparent;
     padding: 10px 50px;
@@ -492,7 +494,7 @@ color:  #DF991B;;
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: white;   
 
 }
 
@@ -623,7 +625,7 @@ img {
 .services__section--img .background-img {
     position: absolute;
     width: 400px;
-    height: calc(100% + 30px);
+    height: 480px;
     background-color:#26282B;
     margin-left: 60px;
     z-index: -10;
@@ -820,7 +822,7 @@ footer {
     padding: 20px; 
     background-color: #000;
     color: white;
-    width: calc(50% + 20px);
+    width: auto;
     padding: 20% 5% 0 5%;
     
 }
@@ -909,7 +911,7 @@ footer {
     font-size: 80px;
     font-weight: 500;
  }
- #principal-section__button {
+ .principal-section__button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -921,11 +923,15 @@ footer {
     line-height: 10px;
     letter-spacing: 5px;   
     }
-    #principal-section >button {
+  
+    /* .principal-section >button {
     border-radius: 10px;
     padding: 1px;
     border: 1px solid #FFF;
     background-color: transparent;
+    } */
+    #principal-section__button:hover {
+        background-color: white;
     }
     .property-1__section {
     display: flex;
@@ -954,11 +960,12 @@ footer {
     }
     .property-1__section--txt .sect-button .primary-bttn {
         font-size: 15px;
-        font-weight: 400;
-        border: solid 1px TRANSPARENT;
+        font-weight: 200;
+        border: solid 1px transparent;
         background-color: transparent;
         border-radius: 100px;
     }
+    
     .sect-button .pagi {
         background-color: transparent;
         border: none;
@@ -1016,7 +1023,7 @@ footer {
     }
     .property-2__section--txt .sect-button-2 .primary-bttn-2 {
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 200;
         border: solid 1px transparent;
         background-color: transparent;
         padding: 10px 50px;
@@ -1061,7 +1068,7 @@ footer {
         }
     .services__section {
         position: block;
-        height: 1000px;
+        height: autopx;
         margin: 100px 20px;
 
 }
